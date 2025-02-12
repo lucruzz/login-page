@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-light-50: #ffffff;
+
+    --color-dark-50: #797984;
+    --color-dark-100: #313131;
+    --color-dark-900: #000;
+
+    --color-blue-50: #6e65ed;
+    --color-blue-100: #3838c1;
+    --color-blue-200: #2b21b6;
+
+    --color-gradient: linear-gradient(90deg, var(--color-blue-50), var(--color-blue-200))
+}
+
+#form_login {
+    background:  var(--color-light-50);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    border-radius: 10px;
+    gap: 30px;
+    box-shadow: 5px 5px 8px rgba(0,0,0, 0.5);
+}
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    height: 100vh;
+    width: 100%;
+    background: var(--color-gradient);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#social_media button img{
+    width: 35px;
+}

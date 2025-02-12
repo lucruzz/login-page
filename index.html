@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Login</title>
+</head>
+<body>
+
+    <main id="container">
+        <form id="form_login">
+
+            <div id="form_head">
+                <h1>Login</h1>
+                <p>Please enter login details below</p>
+            </div>
+            
+            <div id="inputs">
+                <div class="input-box">
+                    <label for="username">
+                        Username
+                        <div>
+                            <i class="fa-solid fa-user"></i>
+                            <input placeholder="Enter your user" type="text" id="username">
+                            
+                        </div>
+                    </label>
+                </div>
+
+                <div class="input-box">
+                    <label for="password">
+                        Password
+                        <div>
+                            <i class="fa-solid fa-lock"></i>
+                            <input placeholder="Enter you password" type="password" id="password">
+                            
+                        </div>
+                    </label>
+                    <div id="forgot_password">
+                        <a href="#">Forgot your password?</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <button type="submit" id="button_login">Sing In</button>
+            <div>
+                <p>Or continue</p>
+            </div>
+
+            <div id="social_media">
+                <button id="button_google">              
+                    <a href="#"><img src="assets/imgs/google-logo.svg" alt="google-logo">Login in with Google</a>
+                </button>
+            </div>
+
+            <div id="register">
+                <p>Don't have a account? <a href="#">Sing Up</a></p>
+            </div>
+
+        </form>
+    </main>
+    
+</body>
+</html>
