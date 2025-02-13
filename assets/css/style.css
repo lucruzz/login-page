@@ -3,6 +3,7 @@
 :root {
     --color-light-50: #ffffff;
 
+    --color-dark-10: #a9a9b3;
     --color-dark-50: #797984;
     --color-dark-100: #313131;
     --color-dark-900: #000;
@@ -22,6 +23,12 @@
     border-radius: 10px;
     gap: 30px;
     box-shadow: 5px 5px 8px rgba(0,0,0, 0.5);
+    height:min-content;
+}
+
+#form_head p {
+    color: var(--color-dark-10);
+    font-size: small;
 }
 
 
@@ -41,6 +48,146 @@
     justify-content: center;
 }
 
+
+#social_media {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+}
+
+#social_media p {
+    font-size: smaller;
+}
+
 #social_media button img{
-    width: 35px;
+    width: 25px;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.input-box label {
+    font-size: small;
+    color: var(--color-dark-50);   
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 3px;
+    cursor: text;
+    border-bottom: 1px solid var(--color-dark-100);
+}
+
+.input-field i {
+    color: var(--color-dark-100);
+    font-size: 15px;
+}
+
+#forgot_password {
+    font-size: smaller;
+}
+
+.input-field input {
+    border: none;
+    background-color: transparent;
+    width: 220px;
+    font-size: 15px;
+    padding: 0px 5px;
+}
+
+.input-field input:focus {
+    outline: none;
+}
+
+#forgot_password a {
+    text-decoration: none;
+    color: var(--color-blue-100);
+    font-size: 12px;
+}
+
+#forgot_password a:hover {
+    color: var(--color-blue-50);
+}
+
+#button_login {
+    border: none;
+    background: var(--color-blue-50);
+    padding: 7px;
+    border-radius: 8px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+#button_login:hover {
+    transform: scale(1.05);
+}
+
+#option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#option p {
+    font-size: x-small;
+}
+
+#option p::before, 
+#option p::after {
+    display: inline-block;
+    content: '';
+    width: 75px;
+    height: 1px;
+    background-color: var(--color-dark-50);
+    vertical-align: middle;
+    margin: 0px 10px;
+}
+
+#social_media button {
+    background: #ededf5;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    padding: 7px;
+    border-radius: 8px;
+    justify-content: center;
+    border: none;
+    border-color: var(--color-dark-100);
+}
+
+#social_media button:hover {
+    transform: scale(1.05);
+}
+
+#social_media p {
+    justify-content: center;
+    padding: 5px;
+}
+
+#register p{
+    display: flex;
+    justify-content: center;
+    color: var(--color-dark-10);
+    font-size: small;
+}
+
+#register a {
+    text-decoration: none;
+    color: var(--color-blue-100);
+    font-size: 12px;
+    margin: 0px 3px 0px;
+}
+
+#register a:hover {
+    color: var(--color-blue-50);
 }
