@@ -12,7 +12,17 @@
     --color-blue-100: #3838c1;
     --color-blue-200: #2b21b6;
 
-    --color-gradient: linear-gradient(90deg, var(--color-blue-50), var(--color-blue-200))
+    --color-dark-blue-200: #302d64;
+    --color-dark-blue-500: #1c1a3d;
+
+    --color-orange-50: rgb(255, 126, 67);
+    --color-orange-100: rgb(255, 99, 26);
+
+    --color-gradient: linear-gradient(90deg, var(--color-blue-50), var(--color-blue-200));
+
+    --color-gradient-orange: linear-gradient(90deg, var(--color-orange-50), var(--color-orange-100));
+
+    --color-gradient-dark-blue: linear-gradient(90deg, var(--color-dark-blue-200), var(--color-dark-blue-500));
 }
 
 #form_login {
